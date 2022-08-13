@@ -8,12 +8,11 @@ Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), 
 ## Installation:
 You must have [the most up-to-date version of Haxe](https://haxe.org/download/), seriously, stop using 4.1.5, it misses some stuff.
 
-Follow a Friday Night Funkin' source code compilation tutorial, after this you will need to install LuaJIT.
+Follow a Friday Night Funkin' source code compilation tutorial, after this you will need to install LuaJIT and SWF 3.0.2.
 
-To install LuaJIT do this: `haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit` on a Command prompt/PowerShell
+To install LuaJIT do this: `haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit` and 'haxelib install swf 3.0.2' (both without quotes) on a Command prompt/PowerShell
 
 ...Or if you don't want your mod to be able to run .lua scripts, delete the "LUA_ALLOWED" line on Project.xml
-
 
 If you get an error about StatePointer when using Lua, run `haxelib remove linc_luajit` into Command Prompt/PowerShell, then re-install linc_luajit.
 
