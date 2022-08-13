@@ -1,6 +1,7 @@
 package;
 
 import Conductor.BPMChangeEvent;
+import flixel.FlxCamera;
 import flixel.FlxG;
 import flixel.addons.ui.FlxUIState;
 import flixel.math.FlxRect;
@@ -26,7 +27,6 @@ class MusicBeatState extends FlxUIState
 	private var curDecStep:Float = 0;
 	private var curDecBeat:Float = 0;
 	private var controls(get, never):Controls;
-
 	public static var camBeat:FlxCamera;
 
 	inline function get_controls():Controls
