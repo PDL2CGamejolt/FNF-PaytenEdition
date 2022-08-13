@@ -1,5 +1,13 @@
 # Friday Night Funkin' - Payten Edition
-ummm i dont know what to put here
+
+ah boy here we go again - datgameryolo
+
+introducing... FNF Payten Edition!
+now play (mostly) all of @AnneBoonchuysModdingAccount's mods all in one (large) package!
+
+(it’s a Dave and Bambi mod) - @AnneBoonchuysModdingAccount in the future
+
+Also includes extras!
 
 
 # Friday Night Funkin' - Psych Engine (funni psych readme)
