@@ -16,10 +16,15 @@ Eccentric
 Weirdo
 Immaturity
 HAUD FATUM (MTVM914)
-Depressive (Unhappy Cricket)
-Odder than the Rest (Oddball Cricket)
-Hyped (Overjoyed Cricket)
+Depressive (Baby Cricket)
+Oddball (Baby Cricket)
+Strange (Oddball 2)
+BIFVVHEOJVEVJ (Oddball 3)
+Hyped (Baby Cricket)
 Dreamed (Dream Kiki)
+Obscure (Emma)
+Back In The Spotlight (Tilly and Emma)
+Assemble (Tilly and the Till-ites)
 
 SSNDE:
 Some Say No
@@ -32,5 +37,5 @@ Doubled (Pencilmiss/Human Penny)
 Secret:
 Rick Buster (Randomly chooses between Emma/Kiki/Pencilmiss/Human Penny) 
 (Unlocked by going to Doubled, and then pressing 7) (Replaces Rude Buster)
-Bypassed (Leland/Homer doing the "finger"/Matt Rose/Emkay)
-Oasiuh (Unnamed Turqiouse Girl)
+Bypassed (Leland/Homer doing the "finger"/Matt Rose/Emkay) (Unlocked by pressing 7 in Humanized)
+Oasiuh (Unnamed Turqiouse Girl) (Unlocked by pressing 7 in Oddball 1, 2, and 3.)
