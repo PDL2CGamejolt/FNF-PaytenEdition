@@ -16,6 +16,8 @@ Eccentric
 Weirdo
 Immaturity
 HAUD FATUM (MTVM914)
+Liiallinen kummallisuus (MTVM914)
+Strokeathon (MTVM914)
 Depressive (Baby Cricket)
 Oddball (Baby Cricket)
 Strange (Oddball 2)
@@ -33,6 +35,8 @@ It's Your Move
 Reactor Meltdown
 Humanized (Human Penny)
 Doubled (Pencilmiss/Human Penny)
+Shiitake (Leland)
+Assault (Leland)
 
 Secret:
 Rick Buster (Randomly chooses between Emma/Kiki/Pencilmiss/Human Penny) 
