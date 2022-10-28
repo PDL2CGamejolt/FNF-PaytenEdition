@@ -4101,6 +4101,7 @@ class PlayState extends MusicBeatState
 			pixelShitPart2 = '-pixel';
 		}
 
+                if(!cpuControlled) (
 		rating.loadGraphic(Paths.image(pixelShitPart1 + daRating.image + pixelShitPart2));
 		rating.cameras = [camHUD];
 		rating.screenCenter();
@@ -4224,6 +4225,7 @@ class PlayState extends MusicBeatState
 			startDelay: Conductor.crochet * 0.002
 		});
 	}
+        )
 
 	public var strumsBlocked:Array<Bool> = [];
 	private function onKeyPress(event:KeyboardEvent):Void
