@@ -1033,7 +1033,7 @@ class PlayState extends MusicBeatState
 		timeBarBG.scrollFactor.set();
 		timeBarBG.alpha = 0;
 		timeBarBG.visible = showTime;
-		timeBarBG.color = FlxColor.BLACK;
+		timeBarBG.color = FlxColor.ORANGE;
 		timeBarBG.xAdd = -4;
 		timeBarBG.yAdd = -4;
 		add(timeBarBG);
@@ -1041,7 +1041,7 @@ class PlayState extends MusicBeatState
 		timeBar = new FlxBar(timeBarBG.x + 4, timeBarBG.y + 4, LEFT_TO_RIGHT, Std.int(timeBarBG.width - 8), Std.int(timeBarBG.height - 8), this,
 			'songPercent', 0, 1);
 		timeBar.scrollFactor.set();
-		timeBar.createFilledBar(0xFF000000, 0xFFFFFFFF);
+		timeBar.createFilledBar(0xFF000000, 0xFF31FD8C);
 		timeBar.numDivisions = 800; //How much lag this causes?? Should i tone it down to idk, 400 or 200?
 		timeBar.alpha = 0;
 		timeBar.visible = showTime;
@@ -1192,8 +1192,43 @@ class PlayState extends MusicBeatState
 		scoreTxt.visible = !ClientPrefs.hideHud;
 		add(scoreTxt);
 
+			var credits:String;
+ 		switch (SONG.song.toLowerCase())
+ 		{
+ 			case 'Funeral':
+ 				credits = 'YOUR EARS AND COMPUTER CANNOT HANDLE THIS! YOU ARE DONE YOU FRICKIN CHEATER!';
+ 			default:
+ 				credits = '';
+ 		}
+ 		var creditsText:Bool = credits != '';
+ 		var textYPos:Float = healthBarBG.y + 50;
+ 		if (creditsText)
+ 		{
+ 			textYPos = healthBarBG.y + 30;
+ 		}
+ 		// totally didnt took this from KE (sorry)
+ 		var songWatermark = new FlxText(4, textYPos, 0,
+ 		SONG.song
+ 		+ " "
+ 		+ CoolUtil.difficultyString()
+ 		+ " - Payten Engine", 16);
+ 		//+ " ", 16);
+ 		songWatermark.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+ 		songWatermark.scrollFactor.set();
+ 		add(songWatermark);
+ 		if (creditsText)
+ 		{
+ 			var creditsWatermark = new FlxText(4, healthBarBG.y + 50, 0, credits, 16);
+ 			creditsWatermark.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+ 			creditsWatermark.scrollFactor.set();
+ 			add(creditsWatermark);
+ 			creditsWatermark.cameras = [camHUD];
+ 		}
+
+
+
 		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "CHEATER", 32);
-		botplayTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		botplayTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.RED, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		botplayTxt.scrollFactor.set();
 		botplayTxt.borderSize = 1.25;
 		botplayTxt.visible = cpuControlled;
