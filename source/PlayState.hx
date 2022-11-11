@@ -1196,7 +1196,9 @@ class PlayState extends MusicBeatState
  		switch (SONG.song.toLowerCase())
  		{
  			case 'Funeral':
- 				credits = 'YOUR EARS AND COMPUTER CANNOT HANDLE THIS! YOU ARE DONE YOU FRICKIN CHEATER!';
+ 				credits = 'YOUR EARS AND COMPUTER CANNOT HANDLE THIS! YOU ARE DONE YOU FRICKIN CHEATER! | Song by Hortas';
+ 			case 'Bypassed':
+ 				credits = 'Oh, that's just gross, go screw yourself!';
  			default:
  				credits = '';
  		}
