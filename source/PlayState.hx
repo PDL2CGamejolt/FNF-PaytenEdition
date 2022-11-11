@@ -1194,6 +1194,7 @@ class PlayState extends MusicBeatState
 			var credits:String;
  		switch (SONG.song.toLowerCase())
  		
+                  {
 			case 'rage-Inducing'|'boundless'|'ascend'|'deformation'|'live-laugh-love':
  				credits = 'Ghost tapping is forced off! Screw you!';
  			case 'tillbreaker':
