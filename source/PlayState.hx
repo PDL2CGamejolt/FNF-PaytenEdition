@@ -1194,7 +1194,17 @@ class PlayState extends MusicBeatState
 
 			var credits:String;
  		switch (SONG.song.toLowerCase())
- 		{
+ 		
+			case 'Rage-Inducing'|'Boundless'|'Ascend'|'Deformation'|'Live-Laugh-Love':
+ 				credits = "Ghost tapping is forced off! Screw you!";
+ 			case 'Tillbreaker':
+ 				credits = "Frick you! You're done you CHEATER!";
+ 			case 'Royale':
+ 				credits = "Original Song made by CharlesCat";
+ 			case 'Till-Purgation'|'Theating':
+ 				credits = 'Screw you!';
+ 			case 'Too-Powerful':
+ 				credits = 'IM IN PAIN RIGHT NOW! JUST BEAT ME AND SAVE ME FROM MY MISERY!';
  			case 'Funeral':
  				credits = 'YOUR EARS AND COMPUTER CANNOT HANDLE THIS! YOU ARE DONE YOU FRICKIN CHEATER! | Song by Hortas';
  			case 'Bypassed':
