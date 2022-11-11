@@ -13,7 +13,6 @@ import flixel.FlxG;
 import flixel.FlxGame;
 import flixel.FlxObject;
 import flixel.FlxSprite;
-import flixel.FlxState;
 import flixel.FlxSubState;
 import flixel.addons.display.FlxGridOverlay;
 import flixel.addons.effects.FlxTrail;
@@ -1195,19 +1194,19 @@ class PlayState extends MusicBeatState
 			var credits:String;
  		switch (SONG.song.toLowerCase())
  		
-			case 'Rage-Inducing'|'Boundless'|'Ascend'|'Deformation'|'Live-Laugh-Love':
+			case 'rage-Inducing'|'boundless'|'ascend'|'deformation'|'live-laugh-love':
  				credits = 'Ghost tapping is forced off! Screw you!';
- 			case 'Tillbreaker':
+ 			case 'tillbreaker':
  				credits = 'Frick you! You're done you CHEATER!';
- 			case 'Royale':
+ 			case 'royale':
  				credits = 'Song by CharlesCat';
- 			case 'Till-Purgation'|'Theating':
+ 			case 'till-purgation'|'theating':
  				credits = 'Screw you!';
- 			case 'Too-Powerful':
+ 			case 'too-powerful':
  				credits = 'IM IN PAIN RIGHT NOW! JUST BEAT ME AND SAVE ME FROM MY MISERY!';
- 			case 'Funeral':
+ 			case 'funeral':
  				credits = 'YOUR EARS AND COMPUTER CANNOT HANDLE THIS! YOU ARE DONE YOU FRICKIN CHEATER! Song by Hortas';
- 			case 'Bypassed':
+ 			case 'bypassed':
  				credits = 'Oh, that's just gross, go screw yourself.';
  			default:
  				credits = '';
