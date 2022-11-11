@@ -1198,9 +1198,9 @@ class PlayState extends MusicBeatState
 			case 'rage-Inducing'|'boundless'|'ascend'|'deformation'|'live-laugh-love':
  				credits = 'Ghost tapping is forced off! Screw you!';
  			case 'tillbreaker':
- 				credits = 'Frick you! You're done you CHEATER!';
+ 				credits = 'Frick you! You're done you CHEATER!' ;
  			case 'royale':
- 				credits = 'Song by CharlesCat';
+ 				credits = 'Song by CharlesCat' ;
  			case 'till-purgation'|'theating':
  				credits = 'Screw you!';
  			case 'too-powerful':
