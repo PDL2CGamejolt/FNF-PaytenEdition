@@ -1191,54 +1191,6 @@ class PlayState extends MusicBeatState
 		scoreTxt.visible = !ClientPrefs.hideHud;
 		add(scoreTxt);
 
-			var credits:String;
- 		switch (SONG.song.toLowerCase())
- 		
-                  {
-			case 'rage-Inducing'|'boundless'|'ascend'|'deformation'|'live-laugh-love':
- 				credits = 'Ghost tapping is forced off! Screw you!';
- 			case 'tillbreaker':
- 				credits = 'Frick you! You're done you CHEATER!' ;
- 			case 'royale':
- 				credits = 'Song by CharlesCat' ;
- 			case 'till-purgation'|'theating':
- 				credits = 'Screw you!';
- 			case 'too-powerful':
- 				credits = 'IM IN PAIN RIGHT NOW! JUST BEAT ME AND SAVE ME FROM MY MISERY!';
- 			case 'funeral':
- 				credits = 'YOUR EARS AND COMPUTER CANNOT HANDLE THIS! YOU ARE DONE YOU FRICKIN CHEATER! Song by Hortas';
- 			case 'bypassed':
- 				credits = 'Oh, that's just gross, go screw yourself.';
- 			default:
- 				credits = '';
- 		}
- 		var creditsText:Bool = credits != '';
- 		var textYPos:Float = healthBarBG.y + 50;
- 		if (creditsText)
- 		{
- 			textYPos = healthBarBG.y + 30;
- 		}
- 		// totally didnt took this from KE (sorry)
- 		var songWatermark = new FlxText(4, textYPos, 0,
- 		SONG.song
- 		+ " "
- 		+ CoolUtil.difficultyString()
- 		+ " - Payten Engine", 16);
- 		//+ " ", 16);
- 		songWatermark.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
- 		songWatermark.scrollFactor.set();
- 		add(songWatermark);
- 		if (creditsText)
- 		{
- 			var creditsWatermark = new FlxText(4, healthBarBG.y + 50, 0, credits, 16);
- 			creditsWatermark.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
- 			creditsWatermark.scrollFactor.set();
- 			add(creditsWatermark);
- 			creditsWatermark.cameras = [camHUD];
- 		}
-
-
-
 		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "CHEATER", 32);
 		botplayTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.RED, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		botplayTxt.scrollFactor.set();
