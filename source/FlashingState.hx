@@ -34,7 +34,7 @@ class FlashingState extends MusicBeatState
 			If you feel uncomfortable with those, exit the mod.\n
                         If not, continue. Don't say that I didn't warn you!",
 			16);
-		warnText.setFormat("VCR OSD Mono", 32, FlxColor.ORANGE, CENTER);
+		warnText.setFormat("VCR OSD Mono", 16, FlxColor.ORANGE, CENTER);
 		warnText.screenCenter(Y);
 		add(warnText);
 	}
