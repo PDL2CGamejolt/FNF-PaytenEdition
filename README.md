@@ -4,9 +4,6 @@ ah boy here we go again - datgameryolo
 
 introducing... FNF Payten Edition!
 now play (mostly) all of @AnneBoonchuysModdingAccount's mods all in one (large) package!
-
-(it’s a Dave and Bambi mod) - @AnneBoonchuysModdingAccount in the future
-
 Also includes extras!
 
 
@@ -108,7 +105,7 @@ _____________________________________
  * On Preferences you can toggle Downscroll, Middlescroll, Anti-Aliasing, Framerate, Low Quality, Note Splashes, Flashing Lights, etc.
 
 ## Other gameplay features:
-* When the enemy hits a note, their strum note also glows.
+* When the enemy hits a note, their strum note also glows. (Not in this mod, this mod will be Kade-Esque.
 * Lag doesn't impact the camera movement and player icon scaling anymore.
 * Some stuff based on Week 7's changes has been put in (Background colors on Freeplay, Note splashes)
 * You can reset your Score on Freeplay/Story Mode by pressing Reset button.
