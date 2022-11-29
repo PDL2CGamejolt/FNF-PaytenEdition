@@ -4,7 +4,7 @@ ah boy here we go again - datgameryolo
 
 introducing... FNF Payten Edition!
 now play (mostly)
-![MOSTLY?!?](https://user-images.githubusercontent.com/44785097/032744F7-B3E8-4C92-A298-2B23558B8714.png)
+![MOSTLY?!?](https://user-images.githubusercontent.com/032744F7-B3E8-4C92-A298-2B23558B8714.png)
  all of @AnneBoonchuysModdingAccount's mods all in one (large) package!
 Also includes extras!
 
