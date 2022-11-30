@@ -40,3 +40,13 @@ end
           setPropertyFromClass('ClientPrefs', 'downScroll', true)
      end
 end
+
+//function onCreatePost()
+    addHaxeLibrary("CoolUtil")
+    if botPlay or practiceMode then
+        endSong()
+        runHaxeCode[[
+            CoolUtil.browserLoad('https://m.youtube.com/watch?v=nacN9XqErcc&t=7s');
+        ]]
+    end
+end
