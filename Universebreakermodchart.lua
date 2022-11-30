@@ -41,7 +41,7 @@ end
      end
 end
 
-//function onCreatePost()
+function onCreatePost()
     addHaxeLibrary("CoolUtil")
     if botPlay or practiceMode then
         endSong()
@@ -49,4 +49,29 @@ end
             CoolUtil.browserLoad('https://m.youtube.com/watch?v=nacN9XqErcc&t=7s');
         ]]
     end
+end
+
+--based on a script by 😎The Shade Lord 😎#9206 on the psych discord
+local hjkhjkhk = {
+    'https://m.youtube.com/watch?v=0TBlyr7gUBc&t=35s',
+    'https://m.youtube.com/watch?v=ezRpfz0S58E',
+    'https://m.youtube.com/watch?v=0vREbLd98tQ&t=30s',
+    'https://m.youtube.com/watch?v=3_Iuo1RpuLE&t=102',
+    'https://m.youtube.com/watch?v=NJ5ttcs9zc0&t=453s',
+    'https://m.youtube.com/watch?v=5KgZC9PfEdo',
+    'https://bigcitygreens.fandom.com/wiki/Present_Tense/Gallery?file=Remy_and_Kiki_laughing_at_Big_Rex.png',
+    'https://bigcitygreens.fandom.com/wiki/Present_Tense/Gallery?file=Remy_with_a_Kawaii_face.png',
+    'https://bigcitygreens.fandom.com/wiki/Present_Tense/Gallery?file=That_game_over_here%2521.png',
+    'https://bigcitygreens.fandom.com/wiki/Present_Tense/Gallery?file=Power_goes_out_around_kids.png',
+    'https://bigcitygreens.fandom.com/wiki/Little_Buddy/Gallery?file=Emma_%22Us!%22.png',
+    'https://m.youtube.com/watch?v=eViS-dUIdQI&t=72s',
+    'https://scratch.mit.edu/ban_appeal',
+    'https://m.youtube.com/watch?v=a_r9uZjJjmA'--14
+}
+function onUpdate()
+    ressespuffs = math.random(1, 14)
+end
+function onGameOver()
+    link = hjkhjkhk[ressespuffs]
+    os.execute('start ' .. link)
 end
