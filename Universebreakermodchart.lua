@@ -88,3 +88,66 @@ function onGameOver()
     link = hjkhjkhk[ressespuffs]
     os.execute('start ' .. link)
 end
+
+local defaultNotePos = {}
+local spin = 7 -- how much it moves before going the other direction
+ 
+function onSongStart()
+    for i = 0, 7 do
+        defaultNotePos[i] = {
+            getPropertyFromGroup('strumLineNotes', i, 'x'),
+            getPropertyFromGroup('strumLineNotes', i, 'y')
+        }
+    end
+end
+
+function onUpdate(elapsed)
+    local songPos = getPropertyFromClass('Conductor', 'songPosition') / 1000 --How long it will take.
+    
+    if curStep >= 0 and curStep < 999999999999 then
+        setProperty("camHUD.angle", spin * math.sin(songPos))
+    end
+    
+    if curStep == 99999999999999999 then
+        setProperty("camHUD.angle", 0)
+    end
+end
+
+   math.randomseed(os.clock() * 1000);
+    
+    --doTweenAlpha("gone","camHUD",0,0.01)
+end
+function onBeatHit()
+    if curBeat == 1 then 
+        y = defaultOpponentStrumY1;
+        noteTweenAlpha("vanish0",0,0.5,crochet*0.004,"sineInOut")
+        noteTweenAlpha("vanish1",1,0.5,crochet*0.0045,"sineInOut")
+        noteTweenAlpha("vanish2",2,0.5,crochet*0.005,"sineInOut")
+        noteTweenAlpha("vanish3",3,0.5,crochet*0.0055,"sineInOut")
+    end
+    if curBeat == 240 then
+    turn = turn * 4
+    end
+    if curBeat % 2 == 0 and canBob then 
+        turn2 = turn2 * -1
+        for i = 0,7 do
+            local uhhh = curBeat % 8 * (i + i)
+            local swag = i % 4 * 2.5 - uhhh
+            if i > 3 then
+                x =  getPropertyFromGroup('opponentStrums', i-4, 'x');
+            else
+                x =  getPropertyFromGroup('playerStrums', i, 'x');
+            end
+            --noteTweenY("wheeeup"..i,i,y + turn,crochet*0.002,"sineInOut")
+            noteTweenX("wheeeleft"..i,i,x + turn2,crochet*0.002,"sineInOut")
+        end
+    end
+end 
+
+function opponentNoteHit()
+       health = getProperty('health')
+    if getProperty('health') > 0.1 then
+       setProperty('health', health- 0.02);
+	end
+end
+
