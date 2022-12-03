@@ -29,6 +29,7 @@ end
      end
 end
 
+
 //function onCreate()     
      if downscroll then
           setPropertyFromClass('ClientPrefs', 'downScroll', false)
@@ -38,6 +39,18 @@ end
 //function onDestroy() -- end of the song or you exited
      if downscroll then
           setPropertyFromClass('ClientPrefs', 'downScroll', true)
+     end
+end
+
+//function onCreate()     
+     if ghostTapping then
+          setPropertyFromClass('ClientPrefs', 'ghostTapping', false)
+     end
+end
+
+//function onDestroy() -- end of the song or you exited
+     if ghostTapping then
+          setPropertyFromClass('ClientPrefs', 'ghostTapping', true)
      end
 end
 
