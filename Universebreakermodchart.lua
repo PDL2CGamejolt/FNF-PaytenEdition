@@ -1,54 +1,54 @@
-//not finished yet
+--not finished yet
 
-//function onCreate()
+function onCreate()
     setProperty("debugKeysChart", null)
 end
 
-//function onUpdate()
+function onUpdate()
     if keyboardJustPressed("SEVEN") then
     debugPrint("OH NO YOU DON'T!, DEBUG MODE IS DISABLED"); 
     playSound("missnote1");
     end
 end
 
-//function onPause()
+function onPause()
     debugPrint("OH NO YOU DON'T!, PAUSING IS DISABLED"); 
     playSound("missnote1");
 	return Function_Stop;
 end
 
-//function onCreate()     
+function onCreate()     
      if middlescroll then
           setPropertyFromClass('ClientPrefs', 'middleScroll', false)
      end
 end
 
-//function onDestroy() -- end of the song or you exited
+function onDestroy() -- end of the song or you exited
      if middlescroll then
           setPropertyFromClass('ClientPrefs', 'middleScroll', true)
      end
 end
 
 
-//function onCreate()     
+function onCreate()     
      if downscroll then
           setPropertyFromClass('ClientPrefs', 'downScroll', false)
      end
 end
 
-//function onDestroy() -- end of the song or you exited
+function onDestroy() -- end of the song or you exited
      if downscroll then
           setPropertyFromClass('ClientPrefs', 'downScroll', true)
      end
 end
 
-//function onCreate()     
+function onCreate()     
      if ghostTapping then
           setPropertyFromClass('ClientPrefs', 'ghostTapping', false)
      end
 end
 
-//function onDestroy() -- end of the song or you exited
+function onDestroy() -- end of the song or you exited
      if ghostTapping then
           setPropertyFromClass('ClientPrefs', 'ghostTapping', true)
      end
@@ -452,4 +452,17 @@ function onStartCountdown()
 	getPropertyFromClass('openfl.Lib','application.window.fullscreen',setPropertyFromClass('openfl.Lib','application.window.fullscreen',false))
 end
 
+function onCreatePost() --script made by impostor, credit me now or i will do an unfunny (credit to imposter dude)
+    makeLuaText("message", "OH NO YOU DON'T! Ghost tapping, Debug mode, Botplay and Practice mode are ALL forced off. GIVE UP.", 500, 30, 50)
+    setTextAlignment("message", "left")
+    addLuaText("message")
 
+    makeLuaText("engineText", " songName ..  - Payten Edition Engine (PE "..version..")", 500, 30, 30)
+    setTextAlignment("engineText", "left")
+    addLuaText("engineText")
+
+    if getPropertyFromClass('ClientPrefs', 'downScroll') == false then
+        setProperty('message.y', 680)
+        setProperty('engineText.y', 660)
+    end
+end
