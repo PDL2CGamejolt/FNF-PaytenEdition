@@ -85,16 +85,16 @@ class PlayState extends MusicBeatState
 	public static var STRUM_X_MIDDLESCROLL = -278;
 
 	public static var ratingStuff:Array<Dynamic> = [
-		['Ah! I can't watch!', 0.2], //From 0% to 19%
-		['A-ga-ga-what?!', 0.4], //From 20% to 39%
-		['It's bad!!', 0.5], //From 40% to 49%
-		['YEAH, BRUH!', 0.6], //From 50% to 59%
-		['Meh, whatever.', 0.69], //From 60% to 68%
-		['Mmm. That's nice.', 0.7], //69%
-		['Oh, good.', 0.8], //From 70% to 79%
-		['You are AMAZING!', 0.9], //From 80% to 89%
-		['WOAH-HOAH! Sick.', 1], //From 90% to 99%
-		['You guys are awesome!', 1] //The value on this one isn't used actually, since Perfect is always "1"
+		['How did you do this bad?', 0.2], //From 0% to 19%
+		['Crepes everywhere!', 0.4], //From 20% to 39%
+		['Skill Issue.', 0.5], //From 40% to 49%
+		['AAAAAAA', 0.6], //From 50% to 59%
+		['Whatever.', 0.69], //From 60% to 68%
+		['Funni number', 0.7], //69%
+		['Ooooh!', 0.8], //From 70% to 79%
+		['Seriously?', 0.9], //From 80% to 89%
+		['Could use some work.', 1], //From 90% to 99%
+		['WONDERFUL!', 1] //The value on this one isn't used actually, since Perfect is always "1"
 	];
 	public var modchartTweens:Map<String, FlxTween> = new Map<String, FlxTween>();
 	public var modchartSprites:Map<String, ModchartSprite> = new Map<String, ModchartSprite>();
