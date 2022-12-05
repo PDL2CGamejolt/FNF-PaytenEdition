@@ -13,7 +13,7 @@ local AutoSelectSound = 'SwitchSounds/turnon'
 local BorderHit = 'SwitchSounds/border'
 local MessageStateMusic = ''
 
-local WarningMessage = 'You have entered the /nPain Zone. This song will be HECK /nIf you wanna play it. If you're a coward,/nExit this song. You have been warned.'
+local WarningMessage = 'You have made a mistake.'
 local ConfirmText = 'Brave'
 local ExitText = 'Coward'
 
