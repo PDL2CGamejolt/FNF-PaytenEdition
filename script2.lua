@@ -286,7 +286,7 @@ function onStartCountdown()
 end
 
 function onCreatePost() --script made by impostor, credit me now or i will do an unfunny (credit to imposter dude)
-    makeLuaText("message", "OH NO YOU DON'T! Ghost tapping, Debug mode, Botplay and Practice mode are ALL forced off. GIVE UP.", 500, 30, 50)
+    makeLuaText("message", "OH NO YOU DON'T! Ghost tapping, Debug mode, Botplay, Practice mode, and pausing are all forced off. GIVE UP.", 500, 30, 50)
     setTextAlignment("message", "left")
     addLuaText("message")
 
