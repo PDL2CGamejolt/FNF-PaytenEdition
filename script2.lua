@@ -290,7 +290,7 @@ function onCreatePost() --script made by impostor, credit me now or i will do an
     setTextAlignment("message", "left")
     addLuaText("message")
 
-    makeLuaText("engineText", " songName ..  - Payten Edition Engine (PE "..version..")", 500, 30, 30)
+    makeLuaText("engineText", " Universe Breaker  - Payten Edition Engine (PE "..version..")", 500, 30, 30)
     setTextAlignment("engineText", "left")
     addLuaText("engineText")
 
