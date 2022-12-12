@@ -14,14 +14,10 @@ VERVORMING
 Squashed
 UNSTABLE (Squashed Tilly)
 Royale
-Royale-Old
 Termination
 Eccentric
 Weirdo
 Immaturity
-HAUD FATUM (MTVM914)
-Liiallinen kummallisuus (MTVM914)
-Strokeathon (MTVM914)
 Depressive (Baby Cricket)
 Oddball (Baby Cricket)
 Hyped (Baby Cricket)
@@ -47,7 +43,7 @@ Shiitake (Leland)
 Assault (Leland)
 Reversal (Pencilmiss and Human Penny)
 
-Burger Kind Arabia:
+Burger King Arabia:
 Arabic (BKA)
 Have It Your Way (BKA)
 We All Quit (BKA and Bootleg)
@@ -102,6 +98,7 @@ Rather Bam-Be
 Secret:
 Bypassed (Leland, Homer doing the "finger", Matt Rose, Plainrock124, and Emkay) (Unlocked by pressing 7 in Humanized)
 Oasiuh (Kelshea) (Unlocked by pressing 7 in Oddball 1, 2, and 3.)
+Royale-Old (Pressing 9 in Royale)
 
 Extra:
 Cancellation-Speedrun
@@ -131,3 +128,7 @@ Forgotten (1.5)
 𝔾ℍ𝕄𝔼ℝ𝕋𝕀𝕊 𝔾𝔸ℕ𝔸𝔻𝔾𝕌ℝ𝔼𝔹𝔸 (2.0)
 𝚖ə𝚗 𝚚𝚊𝚕𝚒𝚋 𝚐ə𝚕𝚒𝚛ə𝚖 (2.0)
 ՍՊԻՏԱԿ ԱՂՄՈՒԿ (2.0)
+Ticking (??? and Aumsum Cover) (1.5) (The Opponent is an incidental who was planned to be in "No Service" but then was ultimately scrapped)
+HAUD FATUM (MTVM914)
+Liiallinen kummallisuus (MTVM914)
+Strokeathon (MTVM914)
