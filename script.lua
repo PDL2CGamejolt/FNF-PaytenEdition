@@ -79,10 +79,11 @@ local hjkhjkhk = {
     'https://bigcitygreens.fandom.com/wiki/Little_Buddy/Gallery?file=Emma_%22Us!%22.png',
     'https://m.youtube.com/watch?v=eViS-dUIdQI&t=72s',
     'https://scratch.mit.edu/ban_appeal',
-    'https://m.youtube.com/watch?v=a_r9uZjJjmA'--14
+    'https://m.youtube.com/watch?v=a_r9uZjJjmA',
+    'https://m.youtube.com/watch?v=lfqCJfK153U&t=1215s' --Swervideo
 }
 function onUpdate()
-    ressespuffs = math.random(1, 14)
+    ressespuffs = math.random(1, 15)
 end
 function onGameOver()
     link = hjkhjkhk[ressespuffs]
@@ -147,20 +148,6 @@ end
 function opponentNoteHit()
        health = getProperty('health')
     if getProperty('health') > 0.1 then
-       setProperty('health', health- 0.02);
+       setProperty('health', health- 0.1);
 	end
-end
-
-function onUpdate(elapsed)
-
-  if curStep >= 0 then
-
-    songPos = getSongPosition()
-
-    local currentBeat = (songPos/1000)*(bpm/80)
-
-    doTweenY(dadTweenY, 'dad', 300-110*math.sin((currentBeat*0.25)*math.pi),0.001)
-
-  end
-
 end
