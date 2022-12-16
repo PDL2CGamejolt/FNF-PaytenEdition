@@ -9,3 +9,5 @@
 9. Window shake.
 10. A "Screw you" text that if you go inside the files, you get the swer video
 11. Forced on Unbearable Difficulty
+12. Hurt Notes, Annoying Notes, and Umball Ball Notes
+13. Warning Screen
