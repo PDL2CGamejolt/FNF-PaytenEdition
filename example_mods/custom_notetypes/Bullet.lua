@@ -13,14 +13,14 @@ end
 function goodNoteHit(id, direction, noteType, isSustainNote)
 	if noteType == 'Bullet' then
 		if difficulty == 2 then
-			playSound('shot', 0.5);
+			playSound('home', 0.5);
 		end
 		characterPlayAnim('dad', 'shoot', false);
 		characterPlayAnim('boyfriend', 'dodge', true);
 		setProperty('boyfriend.specialAnim', true);
 		setProperty('dad.specialAnim', true);
 		cameraShake('camGame', 0.01, 0.2)
-           playSound('shot', 0.5);
+           playSound('home', 0.5);
     end
 end
 
@@ -32,9 +32,9 @@ function noteMiss(id, noteData, noteType, isSustainNote)
 		characterPlayAnim('dad', 'shoot', false);
 		setProperty('dad.specialAnim', true);
 		cameraShake('camGame', 0.01, 0.2)
-           playSound('shot', 0.5);
+           playSound('home', 0.5);
 		setProperty('health', getProperty('health') - 0.6);
 		cameraShake('camGame', 0.01, 0.2)
-           playSound('shot', 0.5);
+           playSound('home', 0.5);
 	end
 end
