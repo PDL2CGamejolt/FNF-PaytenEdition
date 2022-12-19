@@ -1,4 +1,3 @@
---not finished yet
 
 function onCreate()
     setProperty("debugKeysChart", null)
@@ -81,10 +80,11 @@ local hjkhjkhk = {
     'https://scratch.mit.edu/ban_appeal',
     'https://m.youtube.com/watch?v=a_r9uZjJjmA',
     'https://m.youtube.com/watch?v=lfqCJfK153U&t=1215s',
-    'https://m.youtube.com/watch?v=LmqlaumjeNI' -- Swervideo2
+    'https://m.youtube.com/watch?v=LmqlaumjeNI',
+    'https://m.youtube.com/watch?v=Pr1ju6GoCsY&t=87s' -- Never thought I'd hear Luigi say "p*nis"
 }
 function onUpdate()
-    ressespuffs = math.random(1, 16)
+    ressespuffs = math.random(1, 17)
 end
 function onGameOver()
     link = hjkhjkhk[ressespuffs]
