@@ -1002,5 +1002,12 @@ end
 
 function onEndSong()
 	return Function_Stop
-	loadSong("bopeebo", -1)
+	loadSong("universe-breaker", -1)
+end
+
+function onCreatePost()
+         setProperty('healthBar.alpha', 0);
+         setProperty('healthBarBG.alpha', 0);
+         setProperty('iconP1.alpha', 0);
+         setProperty('iconP2.alpha', 0);
 end
