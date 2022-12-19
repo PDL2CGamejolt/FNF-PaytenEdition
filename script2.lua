@@ -995,3 +995,7 @@ function onCreatePopUp(tag, scaleX, scaleY, x, y)
      scaleLuaSprite(tag, scaleX, scaleY)
      addLuaSprite(tag, true)
 end
+
+function onUpdatePost(elapsed)
+	setProperty('timeTxt.text', Unknown:Unknown / Unknown:Uknown)
+end
