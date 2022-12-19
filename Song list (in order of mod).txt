@@ -76,7 +76,7 @@ Phonophobia
 Nomophobia
 Kalampokiphobia
 NOMOPHOBIA (B-Side)
-Central
+Extirpation
 Concatenation
 Tyranny
 Naether-Opposition
@@ -99,15 +99,15 @@ Rather Bam-Be
 Secret:
 Bypassed (Leland, Homer doing the "finger", Matt Rose, Plainrock124, and Emkay) (Unlocked by pressing 7 in Humanized)
 Oasiuh (Kelshea) (Unlocked by pressing 7 in Oddball 1, 2, and 3.)
-Royale-Old (Pressing 9 in Royale)
 Universe Breaker (Pressing 7 in Operation-Defeat and PURGASCATORIA)
+Central (Pressing 9 in Extirpation)
 
 Extra:
 Cancellation-Speedrun
 Ithinkmariohasgainedsentienceandhasstartedarevolt (Cancellation-Speedrun 2)
 Methionylthreonylthreonylglutaminylalanyl...isoleucine (Cancellation-Speedrun 3)
 You-Take-Some-Chocolate-And-Some-Renosance (Dave and Bambi)
-
+Recursed (PLTVE and CGTVE Cover)
 
 Unused:
 Confronting Another Skin Color (Kelshea and Blue)
@@ -182,4 +182,4 @@ Scrapped:
 Pessimistic (Pencilmiss Cover) (Instrumental not found)
 Deafening (Harmony Cover) (IDK)
 Furiosity (Mallard Cover) (IDK)
-Dethroned (CGTSC and PLTVE Cover) (Replaced by Recursed)
+Dethroned (CGTVE and PLTVE Cover) (Replaced by Recursed)
