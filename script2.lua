@@ -999,3 +999,8 @@ end
 function onUpdatePost(elapsed)
 	setProperty('timeTxt.text', Unknown:Unknown / Unknown:Uknown)
 end
+
+function onEndSong()
+	return Function_Stop
+	loadSong("bopeebo", -1)
+end
