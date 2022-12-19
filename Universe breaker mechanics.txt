@@ -14,3 +14,5 @@
 14: Messages saying that you're a pervert and that you should give up
 15: The song loops
 15.5: As a result, the time bar reads "Unknown:Unknown/Unknown:Unknown".
+16: Invisible Health Bar
+17: Health Counter not cooperating
