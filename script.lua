@@ -80,10 +80,11 @@ local hjkhjkhk = {
     'https://m.youtube.com/watch?v=eViS-dUIdQI&t=72s',
     'https://scratch.mit.edu/ban_appeal',
     'https://m.youtube.com/watch?v=a_r9uZjJjmA',
-    'https://m.youtube.com/watch?v=lfqCJfK153U&t=1215s' --Swervideo
+    'https://m.youtube.com/watch?v=lfqCJfK153U&t=1215s',
+    'https://m.youtube.com/watch?v=LmqlaumjeNI' -- Swervideo2
 }
 function onUpdate()
-    ressespuffs = math.random(1, 15)
+    ressespuffs = math.random(1, 16)
 end
 function onGameOver()
     link = hjkhjkhk[ressespuffs]
