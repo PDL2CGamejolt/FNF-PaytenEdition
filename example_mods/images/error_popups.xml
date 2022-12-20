@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="error_popups.png">
-	<!-- Made with CSS sprites, Fuck you animate :imp: -->
+<TextureAtlas imagePath="errorpopup.png">
+	<!-- Made with CSS sprites, Funkin you animate :imp: -->
 
     <!-- Normal Animations -->
 
