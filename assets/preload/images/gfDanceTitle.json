@@ -1,13 +1,13 @@
 {	
-	"titlex":-150,
+	"titlex":0,
 	"titley":-100,
 	"startx":100,
 	"starty":576,
-	"gfx":512,
-	"gfy":40,
+	"gfx":0,
+	"gfy":80,
 	"gfscalex":1,
 	"gfscaley":1,
 	"gfantialiasing":true,
 	"backgroundSprite":"",
-	"bpm":102
+	"bpm":110
 }
