@@ -27,6 +27,7 @@ class FlashingState extends MusicBeatState
 			"Hey, watch out!\n
 			This mod contains flashing lights,\n
                         loud sounds, cringy stuff, and hard songs!\n
+                        There may be swearing or sexual references too.\n
 			Press ENTER to be a coward and disable the flashing lights.\n
                         Turn down your computer volume to prevent your ears from bleeding\n
                         and your computer speakers to be blown.\n
@@ -34,7 +35,7 @@ class FlashingState extends MusicBeatState
 			If you feel uncomfortable with those, exit the mod.\n
                         If not, continue. Don't say that I didn't warn you!",
 			16);
-		warnText.setFormat("VCR OSD Mono", 16, FlxColor.ORANGE, CENTER);
+		warnText.setFormat("VCR OSD Mono", 24, FlxColor.ORANGE, CENTER);
 		warnText.screenCenter(Y);
 		add(warnText);
 	}
