@@ -18,3 +18,5 @@
 16: Invisible Health Bar
 17: Health Counter not cooperating
 18: Russian Roulette
+19: You can miss a max of 25 times
+19.5: No indicator, makes it harder.
