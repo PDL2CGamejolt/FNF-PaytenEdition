@@ -1040,3 +1040,9 @@ function onUpdate(elapsed)
 		setTextString('pog', 'Luck Counter: ' .. balls)
 	end
 end
+
+function noteMiss(id, noteData, noteType, isSustainNote)
+if misses >= 25 then -- if the player has missed 25 or more times
+setProperty('health',0) -- kills the player
+end
+end
