@@ -2,7 +2,7 @@
 2. If you die, you get sent to one out of 17 links. (2 of them are swers) (oh, and have you ever thought Luigi would say p*nis?)
 3. If you use Botplay or Practice Mode, you get sent to a cringy video of mine.
 4. Trampoline.
-5. HUD spin?
+5. HUD spin? (Scrapped)
 6. Shaking Arrows?
 7. Health Drain.
 8. Arrows constantly fade?
@@ -14,9 +14,9 @@
 13. Warning Screen
 14: Messages saying that you're a pervert and that you should give up
 15: The song loops
-15.5: As a result, the time bar reads "Unknown:Unknown/Unknown:Unknown".
+15.5: As a result, the time bar reads "Unknown:Unknown/Unknown:Unknown". (Scrapped)
 16: Invisible Health Bar
-17: Health Counter not cooperating
+17: Health Counter not cooperating (Scrapped)
 18: Russian Roulette
 19: You can miss a max of 25 times
 19.5: No indicator, makes it harder.
